@@ -1,0 +1,91 @@
+@media (max-width: 1200px) {
+  .home {
+    padding-top: 140px;
+    padding-bottom: 100px;
+  }
+  .home__title{
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0 auto 30px;
+  }
+  .home__subtitle{
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .home-form {
+    max-width: 400px;
+  }
+  .home-form__email{
+    padding: 10px 150px 10px 20px;
+  }
+  .home-form__start{
+    padding: 10px 29px 10px 29px;
+  }
+  .leads{
+    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%) top left/100% 500px no-repeat, linear-gradient(to bottom, #191919 0%, #191919 100%) bottom;
+    padding-bottom: 100px;
+  }
+  .leads .stat{
+    max-width: 900px;
+    height: 650px;
+    margin: 0 auto 90px;
+  }
+  .leads__title{
+    font-size: 35px;
+    line-height: 40px;
+    margin: 0 auto 65px;
+  }
+  .leads .owl-carousel {
+    margin-bottom: 65px;
+  }
+  .leads .owl-carousel .leadsNav{
+    margin-top: 65px;
+  }
+  .welcome {
+    padding: 110px 0 160px;
+  }
+  .welcome__text{
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .stay{
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .stay__subtitle{
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .stay__title{
+    font-size: 50px;
+    line-height: 60px;
+    width: 100%;
+    max-width: 710px;
+  }
+  .stay .without{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .payments {
+    padding-top: 80px;
+    padding-bottom: 90px;
+  }
+  .payments__built{
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 80px;
+  }
+  .payments .box{
+    padding: 30px 0 0 30px;
+  }
+  .payments .box_right {
+    padding-bottom: 48px;
+  }
+  .payments .box-bottom-left {
+    padding-bottom: 150px;
+  }
+  .payments .block{
+    margin-top: 50px;
+  }
+}

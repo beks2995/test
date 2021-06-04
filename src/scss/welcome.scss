@@ -1,0 +1,28 @@
+.welcome{
+  padding: 199px 0 247px;
+  &__title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+    text-align: center;
+
+    color: #FF573D;
+    margin-bottom: 15px;
+  }
+  &__text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    /* or 130% */
+
+    text-align: center;
+
+    color: #191919;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}

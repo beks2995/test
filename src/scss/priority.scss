@@ -1,0 +1,13 @@
+.priority{
+  padding-top: 302px;
+  padding-bottom: 212px;
+  background: #191919 url("../img/priority/bg-left.png") top left no-repeat;
+  .list{
+    list-style-type: none;
+    padding-left: 0;
+    &-items{
+      padding-left: 29px;
+      background: url("../img/priority/check.png") top left/21px 16px no-repeat;
+    }
+  }
+}

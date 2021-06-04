@@ -1,0 +1,123 @@
+.splits {
+  padding-top: 163px;
+  padding-bottom: 171px;
+  background: url("../img/split/bg.png") bottom 171px right 0 no-repeat;
+  &__topBtn {
+    width: 107px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    background: #F7F2E4;
+    border-radius: 63.959px;
+    align-items: center;
+    margin: 0 auto 31px;
+    img {
+      margin-right: 7px;
+
+    }
+  }
+  &__subtitle{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+    text-align: center;
+
+    color: #F6C627;
+    margin-bottom: 14px;
+  }
+  &__title{
+    max-width: 854px;
+    margin: 0 auto 200px;
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 68px;
+
+    /* or 106% */
+
+    text-align: center;
+
+    color: #191919;
+    &::before{
+      position: absolute;
+      bottom: -50px;
+      left: -130px;
+      content: '';
+      width: 260px;
+      height: 145px;
+      background: url("../img/split/left.png") center/cover no-repeat;
+
+    }
+    &::after{
+      position: absolute;
+      bottom: -50px;
+      right: -130px;
+      content: '';
+      width: 260px;
+      height: 145px;
+      background: url("../img/split/right.png") center/cover no-repeat;
+
+    }
+  }
+&__span{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  /* or 150% */
+  max-width: 433px;
+  margin-bottom: 73px;
+
+
+  color: #191919;
+}
+  &__platforms{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  &__itemPlatform{
+    font-style: normal;
+    font-weight: normal;
+    padding: 6px 18px 6px 6px;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    img{
+      margin-right: 10px;
+    }
+    &:last-child{
+      margin-bottom: 0;
+    }
+    &:first-child{
+      border: none;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 14px;
+      /* identical to box height, or 100% */
+
+      letter-spacing: 0.559642px;
+      text-transform: uppercase;
+      color: #F6C627;
+      margin-bottom: 22px;
+    }
+
+
+    /* identical to box height, or 140% */
+
+
+    color: #191919;
+  }
+}
